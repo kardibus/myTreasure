@@ -195,7 +195,7 @@
       <workItem from="1572180958724" duration="2542000" />
       <workItem from="1572276355539" duration="8514000" />
       <workItem from="1572366076714" duration="6760000" />
-      <workItem from="1572447588120" duration="10205000" />
+      <workItem from="1572447588120" duration="11680000" />
     </task>
     <task id="LOCAL-00001" summary="kardibus">
       <created>1572448806413</created>
@@ -246,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572458996647</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="kardibus">
+      <created>1572460276868</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572460276868</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
