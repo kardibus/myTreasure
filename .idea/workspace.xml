@@ -3,6 +3,62 @@
   <component name="ChangeListManager">
     <list default="true" id="9d8ff558-9e3f-4d43-8ecc-a995c0adfe47" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/ControllerBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerBrand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/ControllerDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/ControllerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/device/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/device/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/device/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/RepoBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/RepoBrand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/RepoDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/RepoDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/RepoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/RepoModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/chosen-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/chosen-sprite@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/chosen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/chosen.jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/chosen.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/chosen.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/chosen.proto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/chosen.proto.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/brand.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/brand.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/js/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/model.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/model.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navin.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navin.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/ControllerBrand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/ControllerDevice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/ControllerModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/Brand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/Device.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/RepoBrand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/RepoDevice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/RepoModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/UserRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/UserRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/chosen-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/chosen-sprite@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/chosen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/chosen.jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/chosen.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/chosen.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/chosen.proto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/chosen.proto.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/js/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navin.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navin.ftl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +82,41 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="treasure@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="treasure@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="treasure@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="treasure: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="treasure@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="treasure: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="treasure@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="treasure: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="treasure@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="treasure: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
     </expand>
     <select />
   </component>
@@ -36,9 +127,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Enum" />
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -50,6 +143,13 @@
             <value>
               <list>
                 <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
               </list>
             </value>
           </entry>
@@ -107,6 +207,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -124,8 +225,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/static" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/device" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/auth" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/css" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -196,7 +300,9 @@
       <workItem from="1572447588120" duration="11965000" />
       <workItem from="1572538737851" duration="9359000" />
       <workItem from="1572621674720" duration="5674000" />
-      <workItem from="1572702325489" duration="510000" />
+      <workItem from="1572702325489" duration="22259000" />
+      <workItem from="1572791243855" duration="8064000" />
+      <workItem from="1572845173281" duration="12001000" />
     </task>
     <task id="LOCAL-00001" summary="kardibus">
       <created>1572448806413</created>
@@ -303,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572702455665</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add spring security(google)">
+      <created>1572702928865</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1572702928865</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

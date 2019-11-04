@@ -34,6 +34,9 @@
                 <input class="form-control mr-sm-2 col-md-4" type="text" placeholder="Search" aria-label="Search" name="searchDevice">
                 <button class="btn btn-outline-success my-2 my-sm-2 mr-2" type="submit">Найти</button>
             </form>
+            <form action="/logout" method="post">
+                <input type="submit" class="btn btn-outline-success my-2 my-sm-2 mr-2" value="Sign Out"/>
+            </form>
         </div>
         </div>
     </nav>
