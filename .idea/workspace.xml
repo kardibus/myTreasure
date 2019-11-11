@@ -1,64 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d8ff558-9e3f-4d43-8ecc-a995c0adfe47" name="Default Changelist" comment="">
+    <list default="true" id="9d8ff558-9e3f-4d43-8ecc-a995c0adfe47" name="Default Changelist" comment="add registration user email">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/config/MailConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/registration/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/service/MailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/service/UserAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/config/MailConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/service/MailSender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/service/UserAuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84/storage_v2/_src_/database/treasure.ryJ1Ug/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84/storage_v2/_src_/database/treasure.ryJ1Ug/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/ControllerBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerBrand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/ControllerDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerDevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/ControllerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/device/Brand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/device/Device.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/device/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/RepoBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/RepoBrand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/RepoDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/RepoDevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/RepoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/RepoModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/auth/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerBrand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/UserAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/registration/UserAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/Users.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/device/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/devices/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/device/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/devices/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/device/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/devices/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/UserRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/auth/UserAuthRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/auth/UserAuthRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/RepoBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/RepoBrand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/RepoDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/RepoDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/RepoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/RepoModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/chosen-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/chosen-sprite@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/chosen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/chosen.jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/chosen.jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/chosen.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/chosen.proto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/chosen.proto.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chosen-js/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/brand.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/brand.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/js/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/model.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/model.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbr.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbr.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navin.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navin.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navmo.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navmo.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/config/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/ControllerBrand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/ControllerDevice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/ControllerModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/Brand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/Device.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/Model.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/RepoBrand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/RepoDevice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/RepoModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/UserRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/UserRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/chosen-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/chosen-sprite@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/chosen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/chosen.jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/chosen.jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/chosen.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/chosen.proto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/chosen.proto.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/chosen-js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/auth/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/auth/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/device/ControllerBrand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/device/ControllerBrand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/device/ControllerDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/device/ControllerDevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/device/ControllerModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/device/ControllerModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/UserAuth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/device/Brand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/device/Device.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/device/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/UserRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/auth/UserAuthRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/auth/UserAuthRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/device/RepoBrand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/device/RepoBrand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/device/RepoDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/device/RepoDevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/device/RepoModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/device/RepoModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/js/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbr.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbr.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navin.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navin.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navmo.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navmo.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/registration.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/registration.ftl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -224,15 +226,15 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/registration" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates/device" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates/auth" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/css" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -302,7 +304,11 @@
       <workItem from="1572621674720" duration="5674000" />
       <workItem from="1572702325489" duration="22259000" />
       <workItem from="1572791243855" duration="8064000" />
-      <workItem from="1572845173281" duration="12001000" />
+      <workItem from="1572845173281" duration="32520000" />
+      <workItem from="1572965480509" duration="13439000" />
+      <workItem from="1573053434902" duration="4378000" />
+      <workItem from="1573060809023" duration="1078000" />
+      <workItem from="1573484316428" duration="359000" />
     </task>
     <task id="LOCAL-00001" summary="kardibus">
       <created>1572448806413</created>
@@ -416,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572702928865</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add spring security">
+      <created>1572858948997</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1572858948997</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,6 +493,9 @@
     </ignored-roots>
     <MESSAGE value="kardibus" />
     <MESSAGE value="add spring security(google)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add spring security(google)" />
+    <MESSAGE value="add spring security" />
+    <MESSAGE value="add role and autor" />
+    <MESSAGE value="add registration user email" />
+    <option name="LAST_COMMIT_MESSAGE" value="add registration user email" />
   </component>
 </project>

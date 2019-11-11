@@ -1,6 +1,6 @@
-package com.example.myTreasure.domain.device;
+package com.example.myTreasure.domain.devices;
 
-
+import com.example.myTreasure.domain.registration.UserAuth;
 import javax.persistence.*;
 
 @Entity
@@ -8,16 +8,21 @@ import javax.persistence.*;
 public class Device {
 
     public Device(){}
-    public Device(String serial, Model model, Brand brand) {
+    public Device(String serial, Model model, Brand brand ,TypeDevice typeDevice) {
         this.serial = serial;
         this.model = model;
         this.brand = brand;
+        this.typeDevice=typeDevice;
     }
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    public Long id;
-    public String serial;
+    private Long id;
+    private String serial;
+
+    @ManyToOne
+    @JoinColumn(name = "type_device_id", nullable = false)
+    private TypeDevice typeDevice;
 
     @ManyToOne
     @JoinColumn(name = "model_id", nullable = false)
@@ -26,6 +31,16 @@ public class Device {
     @ManyToOne
     @JoinColumn(name = "brand_id", nullable = false)
     private Brand brand;
+
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name="user_auth_id")
+    private UserAuth userAuth;
+
+
+
+    private String getAuthorName(){
+        return userAuth != null ? userAuth.getUsername() : "<none>";
+    }
 
     public Long getId() {
         return id;
@@ -57,5 +72,21 @@ public class Device {
 
     public void setBrand(Brand brand) {
         this.brand = brand;
+    }
+
+    public UserAuth getUserAuth() {
+        return userAuth;
+    }
+
+    public void setUserAuth(UserAuth userAuth) {
+        this.userAuth = userAuth;
+    }
+
+    public TypeDevice getTypeDevice() {
+        return typeDevice;
+    }
+
+    public void setTypeDevice(TypeDevice typeDevice) {
+        this.typeDevice = typeDevice;
     }
 }

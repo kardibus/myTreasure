@@ -1,6 +1,6 @@
 package com.example.myTreasure.controller.device;
 
-import com.example.myTreasure.domain.device.Brand;
+import com.example.myTreasure.domain.devices.Brand;
 import com.example.myTreasure.repository.device.RepoBrand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

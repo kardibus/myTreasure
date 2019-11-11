@@ -12,6 +12,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/brand">Brand</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/type">Type</a>
+                </li>
             </ul>
             <form class="form-inline my-2 my-lg-2" method="post" action="/create" enctype="multipart/form-data">
                 <input class="form-control mr-sm-2" type="text" placeholder="brand" aria-label="brand" name="brand">

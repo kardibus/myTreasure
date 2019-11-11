@@ -1,6 +1,4 @@
-package com.example.myTreasure.domain.device;
-
-import com.example.myTreasure.domain.device.Device;
+package com.example.myTreasure.domain.devices;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -17,9 +15,9 @@ public class Model {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    public Long id;
+    private Long id;
 
-    public String model;
+    private String model;
 
     @OneToMany(mappedBy = "model", cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
     private Set<Device> device = new HashSet<Device>();

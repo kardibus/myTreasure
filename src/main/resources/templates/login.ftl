@@ -7,7 +7,7 @@
                 width: 400px;
         }
 </style>
-
+<p>${message?ifExists}</p>
 <div class="block-div-div">
 <form method="post" action="/login/" enctype="multipart/form-data">
         <label for="exampleInputEmail1">Email address</label>

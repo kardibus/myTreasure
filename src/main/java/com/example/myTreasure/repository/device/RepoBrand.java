@@ -1,6 +1,6 @@
 package com.example.myTreasure.repository.device;
 
-import com.example.myTreasure.domain.device.Brand;
+import com.example.myTreasure.domain.devices.Brand;
 import org.springframework.data.repository.CrudRepository;
 
 public interface RepoBrand extends CrudRepository<Brand,Long> {

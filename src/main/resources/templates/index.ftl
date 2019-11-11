@@ -9,6 +9,7 @@
         <th scope="col">Сериный номер</th>
         <th scope="col">Модель</th>
         <th scope="col">Бренд</th>
+        <th scope="col">Тип</th>
         <th scope="col">Удалить</th>
         <th scope="col">Редактировать</th>
     </tr>
@@ -20,7 +21,7 @@
             <td>${device.serial}</td>
             <td>${device.model.model}</td>
             <td>${device.brand.brand}</td>
-
+            <td>${device.typeDevice.type}</td>
             <td><form method="post" action="/deleteDevice/${device.id}" enctype="multipart/form-data">
                     <button type="submit" class="btn btn-secondary">Удалить</button></form></td>
 
@@ -47,6 +48,14 @@
                                     <select class="form-control mr-sm-4 col-md-4" name="deviceBrand"  >
                                         <#list brands as b>
                                             <option value="${b.id}">${b.brand}</option>
+                                        </#list>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <select class="form-control mr-sm-4 col-md-4" name="deviceType"  >
+                                        <#list types as t>
+                                            <option value="${t.id}">${t.type}</option>
                                         </#list>
                                     </select>
                                 </div>

@@ -12,6 +12,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/brand">Brand</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/type">Type</a>
+                </li>
             </ul>
             <form class="form-inline my-2 my-lg-2" method="post" action="/createDevice" enctype="multipart/form-data">
                 <input class="form-control mr-sm-2 col-md-3" type="text" placeholder="serial" aria-label="serial" name="serial">
@@ -27,6 +30,12 @@
                             <option value="${b.id}">${b.brand}</option>
                         </#list>
                     </select>
+
+                <select class="form-control mr-sm-2 col-md-3" name="types"  >
+                    <#list types as t>
+                        <option value="${t.id}">${t.type}</option>
+                    </#list>
+                </select>
 
                 <button class="btn btn-outline-success my-2 my-sm-2 mr-2" type="submit">Добавить</button>
             </form>

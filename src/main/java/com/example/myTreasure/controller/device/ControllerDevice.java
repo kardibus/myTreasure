@@ -1,11 +1,15 @@
 package com.example.myTreasure.controller.device;
 
-import com.example.myTreasure.domain.device.Brand;
-import com.example.myTreasure.domain.device.Device;
+import com.example.myTreasure.domain.devices.TypeDevice;
+import com.example.myTreasure.domain.registration.UserAuth;
+import com.example.myTreasure.domain.devices.Brand;
+import com.example.myTreasure.domain.devices.Device;
 import com.example.myTreasure.repository.device.RepoBrand;
 import com.example.myTreasure.repository.device.RepoDevice;
 import com.example.myTreasure.repository.device.RepoModel;
+import com.example.myTreasure.repository.device.TypeDeviceRepo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -22,6 +26,8 @@ public class ControllerDevice {
     private RepoModel repoModel;
     @Autowired
     private RepoBrand repoBrand;
+    @Autowired
+    private TypeDeviceRepo typeDeviceRepo;
 
 
     @GetMapping("/")
@@ -36,14 +42,18 @@ public class ControllerDevice {
     }
 
     @PostMapping("/createDevice")
-    public String createDevice(@RequestParam(name = "serial") String serial,
+    public String createDevice(@AuthenticationPrincipal UserAuth userAuth,
+                              @RequestParam(name = "serial") String serial,
                               @RequestParam(name = "brand") Brand brand,
-                              @RequestParam(name = "model") com.example.myTreasure.domain.device.Model models,
+                              @RequestParam(name = "model") com.example.myTreasure.domain.devices.Model models,
+                              @RequestParam(name = "types") TypeDevice types,
                               Model model){
         Device device=new Device();
         device.setSerial(serial);
         device.setBrand(brand);
         device.setModel(models);
+        device.setTypeDevice(types);
+        device.setUserAuth(userAuth);
         repoDevice.save(device);
         return getString(model);
     }
@@ -52,7 +62,8 @@ public class ControllerDevice {
     public String searchDevice(@RequestParam(name="searchDevice") String search,Model model){
         Iterable<Device> devices =repoDevice.findAll();
         Iterable<Brand> brands=repoBrand.findAll();
-        Iterable<com.example.myTreasure.domain.device.Model> models=repoModel.findAll();
+        Iterable<TypeDevice> types=typeDeviceRepo.findAll();
+        Iterable<com.example.myTreasure.domain.devices.Model> models=repoModel.findAll();
 
         if(search!=null){
             devices=repoDevice.findBySerialLike("%"+search+"%");
@@ -60,6 +71,7 @@ public class ControllerDevice {
             devices = repoDevice.findAll();
         }
 
+        model.addAttribute("types",types);
         model.addAttribute("models",models);
         model.addAttribute("brands",brands);
         model.addAttribute("devices",devices);
@@ -69,12 +81,14 @@ public class ControllerDevice {
     @PostMapping("/updateDevice/{id}")
     public String updateBrand(@PathVariable(value = "id",required = false) Device deviceId,
                               @RequestParam("deviceSerial") String serial,
-                              @RequestParam("deviceModel") com.example.myTreasure.domain.device.Model models,
+                              @RequestParam("deviceModel") com.example.myTreasure.domain.devices.Model models,
                               @RequestParam("deviceBrand") Brand brand,
+                              @RequestParam("deviceType") TypeDevice types,
                               Model model){
         deviceId.setSerial(serial);
         deviceId.setModel(models);
         deviceId.setBrand(brand);
+        deviceId.setTypeDevice(types);
         repoDevice.save(deviceId);
 
         return getString(model);
@@ -83,10 +97,12 @@ public class ControllerDevice {
     private String getString(Model model) {
         Iterable<Device> devices=repoDevice.findAll();
         Iterable<Brand> brands=repoBrand.findAll();
-        Iterable<com.example.myTreasure.domain.device.Model> models=repoModel.findAll();
+        Iterable<TypeDevice> types=typeDeviceRepo.findAll();
+        Iterable<com.example.myTreasure.domain.devices.Model> models=repoModel.findAll();
         model.addAttribute("models",models);
         model.addAttribute("brands",brands);
         model.addAttribute("devices",devices);
+        model.addAttribute("types",types);
         return "index";
     }
 }

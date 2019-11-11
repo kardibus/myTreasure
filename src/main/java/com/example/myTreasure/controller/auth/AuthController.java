@@ -1,38 +1,45 @@
 package com.example.myTreasure.controller.auth;
 
-import com.example.myTreasure.domain.Role;
-import com.example.myTreasure.domain.UserAuth;
-import com.example.myTreasure.repository.auth.UserAuthRepo;
+import com.example.myTreasure.domain.registration.UserAuth;
+import com.example.myTreasure.service.UserAuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-
-import java.util.Collections;
-import java.util.Set;
 
 @Controller
 public class AuthController {
     @Autowired
-    private UserAuthRepo userAuthRepo;
+    private UserAuthService userAuthService;
 
     @GetMapping("/registration")
     public String registration(Model model){
-        model.addAttribute("message","Create User");
+
         return "registration";
     }
+
     @PostMapping("/registration")
     public String addUserAuth(UserAuth userAuth, Model model){
-        UserAuth userAuth1=userAuthRepo.findByUsername(userAuth.getUsername());
-        if (userAuth1 != null){
+
+        if (!userAuthService.addUserAuth(userAuth)){
             model.addAttribute("message","User exists");
             return "registration";
         }
 
-        userAuth.setActive(true);
-        userAuth.setRoles(Collections.singleton(Role.USER));
-        userAuthRepo.save(userAuth);
         return "redirect:/login";
+    }
+
+    @GetMapping("/activate/{code}")
+    public String activate(Model model, @PathVariable String code){
+        boolean isActivated=userAuthService.activatedUser(code);
+        if (isActivated){
+            model.addAttribute("message","User success activated");
+        }else{
+            model.addAttribute("message","Activation code is not found");
+        }
+
+        return "login";
     }
 }
