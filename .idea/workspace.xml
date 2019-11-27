@@ -2,65 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d8ff558-9e3f-4d43-8ecc-a995c0adfe47" name="Default Changelist" comment="add registration user email">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/config/MailConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/registration/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/service/MailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/service/UserAuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/config/MailConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/service/MailSender.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/service/UserAuthService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/devices/TypeDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/TypeDeviceRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navty.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/type.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/device/ControllerType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/devices/Device.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/devices/Model.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/devices/TypeDevice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/registration/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/registration/UserAuth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/device/TypeDeviceRepo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/parts/navty.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/type.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84/storage_v2/_src_/database/treasure.ryJ1Ug/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84/storage_v2/_src_/database/treasure.ryJ1Ug/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/auth/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerBrand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerDevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/UserAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/registration/UserAuth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/Users.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/device/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/devices/Brand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/device/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/devices/Device.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/device/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/devices/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/UserRepo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/auth/UserAuthRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/auth/UserAuthRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/RepoBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/RepoBrand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/RepoDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/RepoDevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/RepoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/RepoModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/brand.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/brand.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/model.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/model.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbr.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbr.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navin.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navin.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navmo.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navmo.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/config/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/auth/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/auth/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/device/ControllerBrand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/device/ControllerBrand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/devices/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/devices/Device.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/device/ControllerDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/device/ControllerDevice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/device/ControllerModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/device/ControllerModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/UserAuth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/Users.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/device/Brand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/device/Device.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/device/Model.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/UserRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/auth/UserAuthRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/auth/UserAuthRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/device/RepoBrand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/device/RepoBrand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/device/RepoDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/device/RepoDevice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/device/RepoModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/device/RepoModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbr.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbr.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navin.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navin.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navmo.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navmo.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/registration.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/registration.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/device/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/devices/Brand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,9 +95,9 @@
         <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="Enum" />
-        <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -208,7 +172,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -226,15 +190,15 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates/registration" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates/device" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates/auth" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -308,7 +272,11 @@
       <workItem from="1572965480509" duration="13439000" />
       <workItem from="1573053434902" duration="4378000" />
       <workItem from="1573060809023" duration="1078000" />
-      <workItem from="1573484316428" duration="359000" />
+      <workItem from="1573484316428" duration="4966000" />
+      <workItem from="1573491710965" duration="304000" />
+      <workItem from="1573570841760" duration="1190000" />
+      <workItem from="1573659873834" duration="65000" />
+      <workItem from="1574866366235" duration="10585000" />
     </task>
     <task id="LOCAL-00001" summary="kardibus">
       <created>1572448806413</created>
@@ -429,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572858948997</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add registration user email">
+      <created>1573484867574</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1573484867574</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

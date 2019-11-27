@@ -1,7 +1,11 @@
 package com.example.myTreasure.domain.devices;
 
 import com.example.myTreasure.domain.registration.UserAuth;
+import com.example.myTreasure.domain.users.Users;
+
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "device")
@@ -36,7 +40,8 @@ public class Device {
     @JoinColumn(name="user_auth_id")
     private UserAuth userAuth;
 
-
+    @OneToMany(mappedBy = "device", cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
+    private Set<Users> users = new HashSet<Users>();
 
     private String getAuthorName(){
         return userAuth != null ? userAuth.getUsername() : "<none>";
