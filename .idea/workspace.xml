@@ -1,30 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d8ff558-9e3f-4d43-8ecc-a995c0adfe47" name="Default Changelist" comment="add registration user email">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/device/ControllerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/devices/TypeDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/device/TypeDeviceRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navty.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/type.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/device/ControllerType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/devices/Device.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/devices/Model.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/devices/TypeDevice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/registration/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/registration/UserAuth.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/device/TypeDeviceRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/parts/navty.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/type.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84/storage_v2/_src_/database/treasure.ryJ1Ug/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84/storage_v2/_src_/database/treasure.ryJ1Ug/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9d8ff558-9e3f-4d43-8ecc-a995c0adfe47" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/devices/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/devices/Device.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/device/ControllerDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/device/ControllerDevice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/device/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/devices/Brand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/service/UserAuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/service/UserAuthService.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -276,7 +256,8 @@
       <workItem from="1573491710965" duration="304000" />
       <workItem from="1573570841760" duration="1190000" />
       <workItem from="1573659873834" duration="65000" />
-      <workItem from="1574866366235" duration="10585000" />
+      <workItem from="1574866366235" duration="10788000" />
+      <workItem from="1574952598525" duration="678000" />
     </task>
     <task id="LOCAL-00001" summary="kardibus">
       <created>1572448806413</created>
@@ -404,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573484867574</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add page user email">
+      <created>1574877113909</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1574877113909</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,6 +459,7 @@
     <MESSAGE value="add spring security" />
     <MESSAGE value="add role and autor" />
     <MESSAGE value="add registration user email" />
-    <option name="LAST_COMMIT_MESSAGE" value="add registration user email" />
+    <MESSAGE value="add page user email" />
+    <option name="LAST_COMMIT_MESSAGE" value="add page user email" />
   </component>
 </project>
