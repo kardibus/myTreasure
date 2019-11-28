@@ -39,7 +39,7 @@ public class UserAuthService implements UserDetailsService {
 
         if (!StringUtils.isEmpty(userAuth.getEmail())){
             String message=String.format("Hello, %s! \n" + "Welcome to myTreasure.Please,visit" +
-                    "next link: http://localhost:8888/activate/%s"
+                    "next link: http://mytreasure.herokuapp.com/activate/%s"
             ,userAuth.getUsername(),userAuth.getActivationCode());
             mailSender.send(userAuth.getEmail(),"Activation code",message);
         }
