@@ -2,45 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d8ff558-9e3f-4d43-8ecc-a995c0adfe47" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84/storage_v2/_src_/database/treasure.ryJ1Ug/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84/storage_v2/_src_/database/treasure.ryJ1Ug/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/config/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/auth/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/users/ControllerUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/users/ControllerUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/registration/UserAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/registration/UserAuth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/users/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/users/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/auth/UserAuthRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/auth/UserAuthRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/service/UserAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/service/UserAuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbr.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbr.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navin.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navin.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navmo.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navmo.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navty.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navty.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navus.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navus.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/myTreasure.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/myTreasure.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/config/MvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/config/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/auth/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/auth/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/users/ControllerUsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/users/ControllerUsers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/registration/UserAuth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/registration/UserAuth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/users/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/users/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/auth/UserAuthRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/auth/UserAuthRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/service/UserAuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/service/UserAuthService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/common.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbr.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbr.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navin.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navin.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navmo.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navmo.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navty.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navty.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navus.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navus.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/users.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/users.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +261,7 @@
       <workItem from="1575472439173" duration="9535000" />
       <workItem from="1575557553687" duration="9708000" />
       <workItem from="1575645358663" duration="14553000" />
-      <workItem from="1575701067682" duration="644000" />
+      <workItem from="1575701067682" duration="1620000" />
     </task>
     <task id="LOCAL-00001" summary="kardibus">
       <created>1572448806413</created>
@@ -453,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574958780668</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add auth">
+      <created>1575703746392</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1575703746392</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,7 +492,8 @@
     <MESSAGE value="add role and autor" />
     <MESSAGE value="add registration user email" />
     <MESSAGE value="add page user email" />
-    <option name="LAST_COMMIT_MESSAGE" value="add page user email" />
+    <MESSAGE value="add auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="add auth" />
   </component>
   <component name="WindowStateProjectService">
     <state x="300" y="59" width="800" height="684" key="#Assign_Data_Sources" timestamp="1575107395993">
@@ -544,6 +516,10 @@
       <screen x="44" y="27" width="1322" height="741" />
     </state>
     <state x="438" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/44.27.1322.741@44.27.1322.741" timestamp="1575659870916" />
+    <state x="105" y="27" width="1189" height="741" key="CommitChangelistDialog2" timestamp="1575703745780">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="105" y="27" width="1189" height="741" key="CommitChangelistDialog2/44.27.1322.741@44.27.1322.741" timestamp="1575703745780" />
     <state width="1276" height="215" key="GridCell.Tab.0.bottom" timestamp="1575663807959">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
