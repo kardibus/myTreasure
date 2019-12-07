@@ -1,4 +1,4 @@
-<#macro navty>
+<#macro navdat>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -22,11 +22,18 @@
                     <a class="nav-link" href="/datedev">Date</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-2" method="post" action="/createType" enctype="multipart/form-data">
-                <input class="form-control mr-sm-2" type="text" placeholder="type" aria-label="type" name="type">
+
+            <button id="newButton">GET Data</button>
+            <form class="form-inline my-2 my-lg-2" method="post" action="/createDateDev" enctype="multipart/form-data">
+                <input class="form-control mr-sm-2" type="text" placeholder="dateOpen" aria-label="dateOpen" name="dateOpen" id="dateOpen">
+                <input class="form-control mr-sm-2" type="text" placeholder="dateClose" aria-label="dateClose" name="dateClose">
+                <input class="form-control mr-sm-2" type="text" placeholder="warranty" aria-label="warranty" name="warranty" value="2019-12-01 21:09">
+                <input class="form-control mr-sm-2" type="text" placeholder="numberDay" aria-label="numberDay" name="numberDay">
+
                 <button class="btn btn-outline-success my-2 my-sm-2 mr-2" type="submit">Добавить</button>
             </form>
-            <form class="form-inline my-2 my-lg-2" method="post" action="/searchType" enctype="multipart/form-data">
+
+            <form class="form-inline my-2 my-lg-2" method="post" action="/searchDateDev" enctype="multipart/form-data">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" name="search">
                 <button class="btn btn-outline-success my-2 my-sm-2 mr-2" type="submit">Найти</button>
             </form>

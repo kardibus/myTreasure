@@ -15,6 +15,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/type">Type</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/users">Users</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/datedev">Date</a>
+                </li>
             </ul>
             <form class="form-inline my-2 my-lg-2" method="post" action="/createModel" enctype="multipart/form-data">
                 <input class="form-control mr-sm-2" type="text" placeholder="model" aria-label="model" name="model">

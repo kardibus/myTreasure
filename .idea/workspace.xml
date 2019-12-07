@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d8ff558-9e3f-4d43-8ecc-a995c0adfe47" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="9d8ff558-9e3f-4d43-8ecc-a995c0adfe47" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84/storage_v2/_src_/database/treasure.ryJ1Ug/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e825c23-c727-40a4-b3c8-3dfcf11ecf84/storage_v2/_src_/database/treasure.ryJ1Ug/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/auth/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/users/ControllerUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/users/ControllerUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/registration/UserAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/registration/UserAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/users/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/users/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/auth/UserAuthRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/repository/auth/UserAuthRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/service/UserAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myTreasure/service/UserAuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbr.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbr.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navin.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navin.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navmo.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navmo.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navty.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navty.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navus.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navus.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/myTreasure.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/myTreasure.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/config/MvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/auth/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/auth/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/users/ControllerUsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/controller/users/ControllerUsers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/registration/UserAuth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/registration/UserAuth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/users/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/domain/users/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/auth/UserAuthRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/repository/auth/UserAuthRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/myTreasure/service/UserAuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/myTreasure/service/UserAuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/common.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbr.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbr.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navin.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navin.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navmo.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navmo.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navty.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navty.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navus.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navus.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/users.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/users.ftl" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,12 +107,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -137,6 +176,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -166,6 +210,9 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates/registration" />
@@ -173,21 +220,6 @@
       <recent name="$PROJECT_DIR$/src/main/resources/templates/auth" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/css" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -212,13 +244,15 @@
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -255,6 +289,15 @@
       <workItem from="1573659873834" duration="65000" />
       <workItem from="1574866366235" duration="10788000" />
       <workItem from="1574952598525" duration="678000" />
+      <workItem from="1575040210091" duration="15729000" />
+      <workItem from="1575100477999" duration="12226000" />
+      <workItem from="1575203956089" duration="10866000" />
+      <workItem from="1575305698447" duration="3542000" />
+      <workItem from="1575384937828" duration="10799000" />
+      <workItem from="1575472439173" duration="9535000" />
+      <workItem from="1575557553687" duration="9708000" />
+      <workItem from="1575645358663" duration="14553000" />
+      <workItem from="1575701067682" duration="644000" />
     </task>
     <task id="LOCAL-00001" summary="kardibus">
       <created>1572448806413</created>
@@ -403,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574956777910</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add page user email">
+      <created>1574958780668</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1574958780668</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,13 +523,106 @@
     <MESSAGE value="add page user email" />
     <option name="LAST_COMMIT_MESSAGE" value="add page user email" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="300" y="59" width="800" height="684" key="#Assign_Data_Sources" timestamp="1575107395993">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="300" y="59" width="800" height="684" key="#Assign_Data_Sources/44.27.1322.741@44.27.1322.741" timestamp="1575107395993" />
+    <state x="300" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575049713801">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="300" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/44.27.1322.741@44.27.1322.741" timestamp="1575049713801" />
+    <state x="513" y="84" width="544" height="633" key="#com.intellij.ide.util.MemberChooser" timestamp="1575473404928">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="513" y="84" width="544" height="633" key="#com.intellij.ide.util.MemberChooser/44.27.1322.741@44.27.1322.741" timestamp="1575473404928" />
+    <state x="388" y="125" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575305710796">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="388" y="125" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/44.27.1322.741@44.27.1322.741" timestamp="1575305710796" />
+    <state x="438" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575659870916">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="438" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/44.27.1322.741@44.27.1322.741" timestamp="1575659870916" />
+    <state width="1276" height="215" key="GridCell.Tab.0.bottom" timestamp="1575663807959">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.0.bottom/44.27.1322.741@44.27.1322.741" timestamp="1575663807959" />
+    <state width="1276" height="215" key="GridCell.Tab.0.center" timestamp="1575663807957">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.0.center/44.27.1322.741@44.27.1322.741" timestamp="1575663807957" />
+    <state width="1276" height="215" key="GridCell.Tab.0.left" timestamp="1575663807957">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.0.left/44.27.1322.741@44.27.1322.741" timestamp="1575663807957" />
+    <state width="1276" height="215" key="GridCell.Tab.0.right" timestamp="1575663807958">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.0.right/44.27.1322.741@44.27.1322.741" timestamp="1575663807958" />
+    <state width="1276" height="215" key="GridCell.Tab.1.bottom" timestamp="1575663807962">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.1.bottom/44.27.1322.741@44.27.1322.741" timestamp="1575663807962" />
+    <state width="1276" height="215" key="GridCell.Tab.1.center" timestamp="1575663807961">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.1.center/44.27.1322.741@44.27.1322.741" timestamp="1575663807961" />
+    <state width="1276" height="215" key="GridCell.Tab.1.left" timestamp="1575663807960">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.1.left/44.27.1322.741@44.27.1322.741" timestamp="1575663807960" />
+    <state width="1276" height="215" key="GridCell.Tab.1.right" timestamp="1575663807961">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.1.right/44.27.1322.741@44.27.1322.741" timestamp="1575663807961" />
+    <state width="1276" height="215" key="GridCell.Tab.2.bottom" timestamp="1575663807965">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.2.bottom/44.27.1322.741@44.27.1322.741" timestamp="1575663807965" />
+    <state width="1276" height="215" key="GridCell.Tab.2.center" timestamp="1575663807964">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.2.center/44.27.1322.741@44.27.1322.741" timestamp="1575663807964" />
+    <state width="1276" height="215" key="GridCell.Tab.2.left" timestamp="1575663807963">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.2.left/44.27.1322.741@44.27.1322.741" timestamp="1575663807963" />
+    <state width="1276" height="215" key="GridCell.Tab.2.right" timestamp="1575663807964">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.2.right/44.27.1322.741@44.27.1322.741" timestamp="1575663807964" />
+    <state x="361" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1575701095128">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="361" y="225" key="com.intellij.ide.util.TipDialog/44.27.1322.741@44.27.1322.741" timestamp="1575701095128" />
+    <state x="473" y="317" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575558846805">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="473" y="317" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/44.27.1322.741@44.27.1322.741" timestamp="1575558846805" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/myTreasure/domain/registration/UserAuth.java</url>
-          <line>82</line>
+          <line>83</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/dateDev/ControllerDateDev.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/dateDev/ControllerDateDev.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/myTreasure/controller/dateDev/ControllerDateDev.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
